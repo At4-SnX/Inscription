@@ -1,5 +1,5 @@
 // ===============================
-//  BOT GENDARMERIE — NANCY RP
+//  BOT GENDARMERIE
 // ===============================
 
 const {
@@ -530,5 +530,5 @@ client.on("interactionCreate", async (interaction) => {
 // ===============================
 //  LOGIN
 // ===============================
-
+console.log("TOKEN chargé ?", process.env.TOKEN ? "OUI" : "NON");
 client.login(TOKEN);
