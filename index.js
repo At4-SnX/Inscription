@@ -2,7 +2,7 @@
 //  BOT GENDARMERIE
 // ===============================
 
-const {
+const{
   Client,
   GatewayIntentBits,
   Partials,
